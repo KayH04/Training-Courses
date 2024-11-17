@@ -1,1 +1,1 @@
-Training course
+Training course readme
