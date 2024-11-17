@@ -14,18 +14,17 @@ public class Employee {
 		this.courseName ="";
 	}
 	
-	public Employee (int num, String name, int years, String course, int yearsWorked) {
+	public Employee (int num, String name, int years, String course, int yearsWorked, String courseName) {
 		this.employeeNumber = num;
 		this.employeeName = name;
 		this.yearsWorked = years;
 		this.courseName = course;
 		
-		if (yearsWorked > 5) {
-	        this.yearsWorked= yearsWorked;
-	    else 
+		if (yearsWorked > 5) 
+	        this.yearsWorked = yearsWorked;
+	    else
 	        System.out.println("Employee must have more than 5 years of experience.");
-		
-	    
+	
 		
 	    // Validate course name
 	    if (courseName.startsWith("FOOD")) 
