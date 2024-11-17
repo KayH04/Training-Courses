@@ -14,7 +14,7 @@ public class Employee {
 		this.courseName ="";
 	}
 	
-	public Employee (int num, String name, int years, String course) {
+	public Employee (int num, String name, int years, String course, int yearsWorked) {
 		this.employeeNumber = num;
 		this.employeeName = name;
 		this.yearsWorked = years;
